@@ -20,17 +20,17 @@ function drawCards(e) {
         number.classList.add("number");
         let lettersForNumbers = Math.floor(Math.random() * 4); 
         number.classList.add(suits[lettersForNumbers]);
-        let randomNumber = Math.floor(Math.random * 13); 
+        let randomNumber = Math.floor(Math.random() * 13); 
         if (randomNumber === 10){
-            number.innerHTML = "J";
+            number.innerText = "J";
         } else if (randomNumber === 0) {
-            number.innerHTML = "A";
+            number.innerText = "A";
         } else if (randomNumber === 11) {
-            number.innerHTML = "Q";
+            number.innerText = "Q";
         } else if (randomNumber === 12) {
-            number.innerHTML = "K";
+            number.innerText = "K";
         } else {
-            number.innerHTML = numbers[randomNumber];
+            number.innerText = numbers[randomNumber];
         }
         card.appendChild(number);
         generatedCards.appendChild(card);

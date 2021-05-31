@@ -70,11 +70,11 @@ p {
     border: 1px solid rgba(245, 240, 240, 0.932);
     box-shadow: 5px 5px rgba(0,0,0,0.30), 9px 9px rgba(0,0,0,0.22);
     border-radius: 8px;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 .card .number{
-    font-size: 15px;
+    font-size: 30px;
     width: 100%;
     display: block;
     text-align: center;
