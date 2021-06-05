@@ -45,7 +45,8 @@ p {
 }
 
 #generatedCards {
-    padding-left: 27px;
+    padding-left: 30px;
+    padding-top: 55px;
 }
 
 #draw {
@@ -54,7 +55,7 @@ p {
 }
 
 #paragraph {
-    margin-top: 25px;
+    margin-top: 60px;
 }
 
 .card {
